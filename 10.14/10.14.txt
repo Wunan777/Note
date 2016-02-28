@@ -1,0 +1,12 @@
+
+默认端口号 80
+
+www.abc.com 一级子域名
+beijing.bbs.abc.com  二级子域名
+haidian.beijing.bbs.abc.com 三级子域名
+
+跨域解决 --1 代理
+ 	2 jsonp 借助script   (只支持get请求)
+                 <script src="http://www.bbb.com/jsonp.js"></script>
+  	3 html5 XHR2
+   
